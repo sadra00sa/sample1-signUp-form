@@ -1,0 +1,62 @@
+@import url(./Webfonts/css/fontiran.css);
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    font-family: Dana;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #164a3f;
+}
+form{
+    background-color: #0a2a1f;
+    border-radius: 12px;
+    padding: 20px 28px;
+    width: 450px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    border: 1px solid #ded9ee;
+    padding: 20px;
+    border-radius: 8px;
+    color: #1b1b1b;
+    display: block;
+    transition: 180ms ease-in border-color;
+}
+input::placeholder{
+    color: grey;
+    font-weight: 300;
+}
+input:focus{
+    border-color: #89888b;
+}
+button[type="submit"],
+input[type="submit"]{
+    background-color: #ffc300;
+    color: #0a2a1f;
+    padding: 12px;
+    border-radius: 80px;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+img{
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+}
+label{
+    color:#4f887b ;
+}
+a{
+     color:#4f887b ;
+}

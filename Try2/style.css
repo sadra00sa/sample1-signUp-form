@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Urbanist;
+  src: url(./fonts/Urbanist-Regular.ttf);
+}
+
+body {
+  background-color: #164a3f;
+  /* margin: 50px; */
+  font-family: Urbanist;
+  background-image: url("/image/Background-pattern_Gradient.svg");
+  background-repeat: no-repeat;
+  background-position-x:center ;
+  /* background-attachment: fixed; */
+}
+h1 {
+  color: whitesmoke;
+}
+h2 {
+  color: whitesmoke;
+  font-size: "20px";
+}
+h3 {
+  color: whitesmoke;
+  font-size: "20px";
+}
+p {
+  color: whitesmoke;
+}
+button {
+  font-family: Urbanist;
+}
+
+div{
+  margin:auto;
+}
